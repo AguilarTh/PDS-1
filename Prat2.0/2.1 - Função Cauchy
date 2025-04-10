@@ -1,0 +1,7 @@
+float cauchy(float x)
+{
+    float PI= 3.141592, y;
+    y= ( 1 / ( PI * ( 1 + x * x)));
+    
+    return (y);
+}
